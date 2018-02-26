@@ -17,7 +17,7 @@ var commentRoutes    = require("./routes/comments"),
     
 // mongoose.connect("mongodb://localhost/food_joint_v10"); // for local mongodb connection
 // for heroky mongodb using mlab
-mongoose.connect("mongodb://GaganBhayana:two9735777@ds231228.mlab.com:31228/food_joint");
+mongoose.connect("mongodb://your database link :p");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
